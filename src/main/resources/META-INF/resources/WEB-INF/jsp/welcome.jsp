@@ -19,6 +19,9 @@
         <form action="/library_index" method="get">
             <button type="submit" class="btn btn-success btn-lg">Library Management</button>
         </form>
+        <form action="${pageContext.request.contextPath}/download-zip" method="post">
+                <button type="submit" class="btn btn-success btn-lg">Download ZIP</button>
+        </form>
     </div>
 </div>
 </body>
